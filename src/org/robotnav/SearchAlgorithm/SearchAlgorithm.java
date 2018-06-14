@@ -250,7 +250,6 @@ public abstract class SearchAlgorithm {
 
     protected void incrementNodeCount() { nodeCount++; }
 
-    //TODO: consider whether we're doing the additional cost
     public int moveCost(Direction d, Node<ActionNode> node) {
         return 1;
     }

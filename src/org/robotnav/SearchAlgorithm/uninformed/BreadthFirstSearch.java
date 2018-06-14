@@ -2,7 +2,6 @@ package org.robotnav.SearchAlgorithm.uninformed;
 
 import org.robotnav.Robot.Direction;
 import org.robotnav.Robot.Robot;
-import org.robotnav.SearchAlgorithm.BranchedTree.BranchedNode;
 import org.robotnav.SearchAlgorithm.Data.ActionNode;
 import org.robotnav.SearchAlgorithm.Data.Coordinate;
 import org.robotnav.SearchAlgorithm.SearchAlgorithm;
