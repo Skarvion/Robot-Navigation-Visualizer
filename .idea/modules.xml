@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Robot Navigation Problem.iml" filepath="$PROJECT_DIR$/Robot Navigation Problem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search.iml" filepath="$PROJECT_DIR$/search.iml" />
     </modules>
   </component>
 </project>
