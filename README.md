@@ -5,9 +5,11 @@ To start this program please run search.bat on command prompt and insert argumen
 
 ## Feature
 The main feature of this program is to parse a text file into a map with walls and finding solution from the starting robot position to the end goal. The user can run the program from command line by running the batch file with the following command:
+```
 search [map text file name] [search method]
-It assumes that all input is true and valid. It parses text file with the following format:
+```
 
+It assumes that all input is true and valid. It parses text file with the following format:
 ```
 [5,11] // The size of the map grid n x m [n,m]
 (0,1) // Starting position of robot (x,y)
@@ -44,9 +46,15 @@ In this visualizer, it runs separately from the command line other than parsing 
 ## Maze Generator
 
 The program has a maze generator that generates random mazes for testing purpose with randomised starting robot position and goal position and can have the maze size specified. It uses Randomised Prim’s Algorithm to generate the maze. To use this feature, use the following command:
+```
 search generate [m-size] [n-size] [search method]
+```
+
 To visualize it to GUI, use the following command:
+```
 search generate [m-size] [n-size] [search method] -gui
+```
+
 The maze generator functionality can also be used to generate test cases by creating new maps and test all search algorithm on each map and output the results to a CSV file. This method is using 4 threads to generate for quicker result, making it very CPU intensive if generating large grids. To use this functionality, use the following command:
 ```
 search generate [m-size] [n-size] [number of test map] [output file name]
